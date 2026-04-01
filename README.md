@@ -1,4 +1,3 @@
-In this project, let's build a **Blog List** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
 
@@ -30,23 +29,7 @@ In this project, let's build a **Blog List** by applying the concepts we have le
 
 ### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
 
-The app must have the following functionalities
-
-- In the Home Route, user info and blog list should be displayed
-- The `Home` component is provided with `blogsList`. It consists of a list of blog details objects with the following properties in each object
-
-  |      Key      | Data Type |
-  | :-----------: | :-------: |
-  |      id       |  Number   |
-  |     title     |  String   |
-  |  description  |  String   |
-  | publishedDate |  String   |
-
-</details>
 
 <details>
 <summary>Components Structure</summary>
@@ -74,21 +57,7 @@ Use these files to complete the implementation:
 - `src/components/UserInfo/index.css`
 </details>
 
-### Important Note
 
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- `Home` route should consist of `/` in the URL path
-- `About` route should consist of `/about` in the URL path
-- `Contact` route should consist of `/contact` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js` file
-
-</details>
 
 ### Resources
 
@@ -120,6 +89,3 @@ Use these files to complete the implementation:
 > ### _Things to Keep in Mind_
 >
 > - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
